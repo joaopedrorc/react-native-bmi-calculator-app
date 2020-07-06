@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {StyleSheet, View, Text, TextInput, Button } from 'react-native';
+import { StyleSheet, View, Text, TextInput, Button } from 'react-native';
 
 const App = () => {
   // BMI = Body Mass Index
@@ -15,19 +15,19 @@ const App = () => {
     const finalResult = Math.round(result)
     setBMI(finalResult)
 
-    if( finalResult < 18.5 ) {
+    if (finalResult < 18.5) {
       setColor('#e74c3c')
       setSubTitle('Underweight')
-    } else if(finalResult >= 18.5 && finalResult < 25 ) {
+    } else if (finalResult >= 18.5 && finalResult < 25) {
       setColor('#2ECC71')
       setSubTitle('In Shape')
-    } else if( finalResult >= 25   &&  finalResult <= 30) {
+    } else if (finalResult >= 25 && finalResult <= 30) {
       setColor('#F39C12')
       setSubTitle('Overweight')
-    } else if( finalResult >= 30  &&  finalResult < 40) {
+    } else if (finalResult >= 30 && finalResult < 40) {
       setColor('#d35400')
       setSubTitle('Obesity')
-    } else if(finalResult >= 40) {
+    } else if (finalResult >= 40) {
       setColor('#C0392B')
       setSubTitle('High-Risk Obesity')
 
@@ -39,7 +39,7 @@ const App = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Your BMI:</Text>
 
-      <View style={[styles.results, { backgroundColor: color} ]}>
+      <View style={[styles.results, { backgroundColor: color }]}>
         <Text style={styles.bmiIndex}>{bmi}</Text>
         <Text style={styles.bmiResult}>{subTitle}</Text>
       </View>
@@ -48,14 +48,14 @@ const App = () => {
         <TextInput
           style={styles.heightInput}
           placeholder='Heigth'
-          onChangeText={value => { 
+          onChangeText={value => {
             setHeight(value);
           }}
-        /> 
+        />
 
         <TextInput
           style={styles.weigthIput}
-          placeholder= "Weigth"
+          placeholder="Weigth"
           onChangeText={value => {
             setWeigth(value);
           }}
@@ -64,10 +64,10 @@ const App = () => {
         />
 
         <View style={styles.button}>
-          <Button 
+          <Button
             mode='contained'
             title='CALCULATE'
-            color=  '#fff'
+            color='#fff'
             accessibilityLabel='Press the button to calculate your BIM'
             onPress={bmiMath}
           >
