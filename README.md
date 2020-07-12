@@ -10,17 +10,8 @@
 <br />
 
 
-<img alt="WhatsApp Extension" title="#page1" src="./assets/home.png" height="200px" />
+<img alt="WhatsApp Extension" title="#page1" src="./assets/page.png" >
 
-<img alt="WhatsApp Extension" title="#page1" src="./assets/pg1.png" height="200px" />
-
-<img alt="WhatsApp Extension" title="#page1" src="./assets/pg2.png" height="200px" />
-
-<img alt="WhatsApp Extension" title="#page1" src="./assets/pg3.png" height="200px" />
-
-<img alt="WhatsApp Extension" title="#page1" src="./assets/pg4.png" height="200px" />
-
-<img alt="WhatsApp Extension" title="#page1" src="./assets/pg5.png" height="200px" />
 
 
 
