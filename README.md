@@ -17,7 +17,7 @@
 
 ## :information_source: Info
 <p>
-  This is my first Ract Native App developed in the online course "Meu Primeiro Aplicativo", My First Application in english, conducted and designed by Felipe Fontoura from Dev Samurai.
+  This is my first Ract Native App developed in the online course "Meu Primeiro Aplicativo", (My First Application in english), conducted and designed by Felipe Fontoura from Dev Samurai.
 </p>
 
 ## About 
