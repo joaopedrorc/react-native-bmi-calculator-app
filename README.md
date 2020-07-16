@@ -34,7 +34,7 @@
 <img alt="WhatsApp Extension" title="#page1" src="./assets/video.gif" height="700px" align="center"/>
 
 
-## Develop
+## Development
 #### iOS
 1. `$ npm install`
 3. `$ npm start`
