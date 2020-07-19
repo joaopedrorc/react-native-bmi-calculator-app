@@ -28,6 +28,15 @@
 
 ### [React Native Basics: Props & States](https://devsamurai.com.br/react-native-basics-props-states/)
 
+## Design 🎨
+<p>
+    For designing and prototyping I used Figma 
+</p>
+
+Figma Design :
+
+- [Figma](https://www.figma.com/file/4qF8lAAiBf9Cyko5suFG92/Calculadora-IMC?node-id=0%3A1)
+
 ## 💻 Demonstration
 ### 📱Screens
 
